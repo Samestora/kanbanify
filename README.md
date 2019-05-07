@@ -24,7 +24,7 @@ Manage your projects and tasks with this basic kanban web app tool
 <li>Material Design Bootstrap 4</li> 
 <li>Javascript</li>    
 <li>AJAX</li>  
-<li>PHP 7</li>
+<li>PHP7</li>
 </ul>
 
 
@@ -38,8 +38,8 @@ Manage your projects and tasks with this basic kanban web app tool
 
 <table>
 <tr>
-  <td>Username</td>
-  <td>Password</td>
+  <th>Username</th>
+  <th>Password</th>
 </tr>
 <tr>
   <td>user1</td>
