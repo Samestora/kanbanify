@@ -52,7 +52,7 @@ Manage your projects and tasks with this basic kanban web app tool
 </table>
 
 
-<h3>Features</h3>
+<h3>Programming Features</h3>
 
 <ul>
 <li>Uses MVC architecture</li>  
