@@ -43,10 +43,10 @@ Manage your projects and tasks with this basic kanban web app tool
 </tr>
 <tr>
   <td>user1</td>
-  <td>admin</td>
+  <td>password</td>
 </tr>
 <tr>
-  <td>password</td>
+  <td>admin</td>
   <td>admin</td>
  </tr>
 </table>
