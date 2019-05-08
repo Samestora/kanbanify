@@ -63,6 +63,7 @@ Manage your projects and tasks with this basic kanban web app tool
 <li>Uses cookies and sessions</li>
 <li>Autoloading</li>
 <li>Javascript - event delegation, ajax, DOM manipulation</li>
+<li>Using PDO to interact with database</li>
 </ul>
 
 
