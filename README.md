@@ -16,7 +16,7 @@ Manage your projects and tasks with this basic kanban web app tool
 </ul>
 
 
-<h3>Technology Stack</h3>
+<h3>Technologies</h3>
 
 <ul>
 <li>HTML</li>
