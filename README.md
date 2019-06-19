@@ -1,4 +1,4 @@
-# kanban-app-php-mvc
+# kanban-trello-style-app-php-mvc
 
 
 <h3>Description</h3>
