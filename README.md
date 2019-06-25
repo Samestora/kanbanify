@@ -32,7 +32,7 @@ Manage your projects and tasks with this basic kanban web app tool
 
 <p>Run sql to create the database</p>
 <p>Alter database connection information if needed in config file</p>
-<p>The root folder name must match project_name in config file</p>
+<p>The root folder name of this project on your machine must match $project_name variable in config file</p>
 <p>You will need URL rewriting for this project to work</p>
 <p>Sign in with either of the following accounts:</p>
 

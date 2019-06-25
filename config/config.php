@@ -6,7 +6,7 @@ define('DEFAULT_ACTION', 'index');
 
 define('SITE_TITLE', 'Kanban App');
 define('DEFAULT_LAYOUT', 'default');
-define('PROJECT_NAME', 'kanban-app-php-mvc-master');
+define('PROJECT_NAME', 'kanban-app-php-mvc');
 
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'kanban_app_php_mvc');
