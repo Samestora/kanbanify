@@ -22,7 +22,7 @@ Manage your projects and tasks with this basic kanban web app tool
 <li>HTML</li>
 <li>CSS</li>
 <li>Material Design Bootstrap 4</li> 
-<li>Javascript</li>    
+<li>JavaScript</li>    
 <li>AJAX</li>  
 <li>PHP7</li>
 </ul>
@@ -62,7 +62,7 @@ Manage your projects and tasks with this basic kanban web app tool
 <li>Create an account and login (note: there is no user admin at this moment in time - you cannot delete or edit user accounts except through the database)</li>
 <li>Uses cookies and sessions</li>
 <li>Autoloading</li>
-<li>Javascript - event delegation, ajax, DOM manipulation</li>
+<li>JavaScript - event delegation, ajax, DOM manipulation</li>
 <li>Using PDO to interact with database</li>
 </ul>
 

@@ -6,6 +6,7 @@ define('DEFAULT_ACTION', 'index');
 
 define('SITE_TITLE', 'Kanban App');
 define('DEFAULT_LAYOUT', 'default');
+//project_name must match name of the root folder of this project on your machine
 define('PROJECT_NAME', 'kanban-app-php-mvc');
 
 define('DB_HOST', 'localhost');
