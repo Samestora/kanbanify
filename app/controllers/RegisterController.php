@@ -51,8 +51,6 @@ class RegisterController extends Controller {
 			if ($newUser->validationPassed()) {
 				if ($newUser->save()) {
 					Router::redirect('register/login');
-					H::d($newUser);
-					exit;
 				}
 			}
 		}
