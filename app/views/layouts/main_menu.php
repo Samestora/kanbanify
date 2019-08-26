@@ -30,6 +30,9 @@
 			<li class="nav-item <?php echo ($this->getPageTitle() === 'Login' ? 'active' : ''); ?>">
         <a class="nav-link" href="<?=SROOT?>register/login">login</a>
       </li>
+      <li class="nav-item <?php echo ($this->getPageTitle() === 'Register' ? 'active' : ''); ?>">
+        <a class="nav-link" href="<?=SROOT?>register/register">register</a>
+      </li>
 			<?php endif; ?>
     </ul>
     <!-- Links -->
