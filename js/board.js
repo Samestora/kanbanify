@@ -51,9 +51,12 @@ var DOM = {
 
 //===============================================//
 //--- For loading content into a modal
+// Pass modal ID as theModal and suffix "Body" for
+// body content
 //----------------------------------------------//
-function loadModal(loadURL) {
+function loadModal(loadURL,theModal) {
 	$(".modal-content").load(loadURL,function(){
+			//$("#"+theModal+"Label").text(theLabel)
 			$("#modal").modal({show:true});
 	});
 }
