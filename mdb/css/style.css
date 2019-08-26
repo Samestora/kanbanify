@@ -176,14 +176,14 @@ MODAL COMMENTS
 }
 
 .mod-comment-control {
-	color: lightgray !important;
+	color: darkgray !important;
 	text-decoration: underline !important;
 	font-size: 14px;
 	margin-left: 12px;
 }
 
 .mod-comment-control:hover {
-	color: gray !important;
+	color: darkgray !important;
 }
 
 .mod-comment-text {
