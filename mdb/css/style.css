@@ -159,9 +159,7 @@ MODAL CHECKLIST
 	display: inline-block;
 }
 
-.mod-checklist-item-text {
-	
-}
+
 
 
 /*******************************************
@@ -178,14 +176,14 @@ MODAL COMMENTS
 }
 
 .mod-comment-control {
-	color: lightgray;
-	text-decoration: underline;
+	color: lightgray !important;
+	text-decoration: underline !important;
 	font-size: 14px;
 	margin-left: 12px;
 }
 
 .mod-comment-control:hover {
-	color: gray;
+	color: gray !important;
 }
 
 .mod-comment-text {
