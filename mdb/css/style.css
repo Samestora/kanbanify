@@ -184,6 +184,7 @@ MODAL COMMENTS
 
 .mod-comment-control:hover {
 	color: darkgray !important;
+	text-decoration: none !important;
 }
 
 .mod-comment-text {
