@@ -2,8 +2,6 @@
 <!--Navbar-->
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark primary-color">
 
-  <!-- Navbar brand -->
-  <a class="navbar-brand" href="#">Navbar</a>
 
   <!-- Collapse button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -22,26 +20,23 @@
       <li class="nav-item <?php echo ($this->getPageTitle() === 'Boards' ? 'active' : ''); ?>">
         <a class="nav-link" href="<?=SROOT?>boards/index">Boards</a>
       </li>
+    </ul>
+    <!-- Links -->
+    <ul class="navbar-nav">
 			<?php if (Users::currentUser()) : ?>
   		<li class="nav-item">
-        <a class="nav-link" href="<?=SROOT?>register/logout">Logout</a>
+        <a class="nav-link" href="<?=SROOT?>register/logout"><i class="fa fa-sign-out"></i>Logout</a>
       </li>
 			<?php else: ?>
 			<li class="nav-item <?php echo ($this->getPageTitle() === 'Login' ? 'active' : ''); ?>">
-        <a class="nav-link" href="<?=SROOT?>register/login">login</a>
+        <a class="nav-link" href="<?=SROOT?>register/login"><i class="fa fa-sign-in mr-1"></i>Login</a>
       </li>
       <li class="nav-item <?php echo ($this->getPageTitle() === 'Register' ? 'active' : ''); ?>">
-        <a class="nav-link" href="<?=SROOT?>register/register">register</a>
+        <a class="nav-link" href="<?=SROOT?>register/register"><i class="fa fa-user mr-1"></i>Register</a>
       </li>
 			<?php endif; ?>
     </ul>
-    <!-- Links -->
 
-    <form class="form-inline">
-      <div class="md-form my-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      </div>
-    </form>
   </div>
   <!-- Collapsible content -->
 

@@ -6,7 +6,14 @@
 
 <?php $this->start('body'); ?>
 
-	<h3 class="red my-3">You must be logged in to access this page</h1>
+<div class="container mt-5">
+	<div class="text-center">
+		<span class="alert alert-danger" role="alert">
+			You must be logged in to access this page
+		</span>
+	</div>
+</div>
+	
 
 <?php $this->end(); ?>
 

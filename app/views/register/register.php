@@ -5,7 +5,7 @@
 
 <?php $this->start('body'); ?>
 
-<div class="col-md-6 offset-md-3 card bg-light">
+<div class="col-md-6 offset-md-3 card mt-5">
 	<form class="form my-3" action="<?=SROOT;?>register/register" method="post">
 		<?php if (!empty($this->displayErrors)): ?>
 			<div class="text-danger font-weight-bold alert-danger p-2 border border-danger rounded">
@@ -17,7 +17,8 @@
 			</div>
 		<?php endif; ?>
 		
-		<h3 class="text-center">Register</h3><hr>
+		<h3 class="text-center">Register</h3>
+		<hr>
 		
 		
 		<div class="form-group">
@@ -35,9 +36,8 @@
 			<input type="password" name="confirm" id="confirm" class="form-control" value="<?=$this->newUser->getConfirm();?>">
 		</div>
 		
-		<div class="form-group">
-			<input type="submit" value="register" name="submit" id="submit" class="btn btn-large btn-primary">
-		</div>
+		
+		<button type="submit" name="submit" id="submit" class="btn btn-primary">Submit</button>
 		
 	</form>
 </div>
