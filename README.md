@@ -58,12 +58,12 @@ Manage your projects and tasks with this basic kanban web app tool
 <li>Uses MVC architecture</li>  
 <li>URL rewriting - htaccess and web.config files</li>  
 <li>PHP routing</li>
-<li>Ajax sends data to php file which performs CRUD operations</li>  
+<li>Ajax makes requests to php controller actions to perform CRUD operations</li>  
 <li>Create an account and login (note: there is no user admin at this moment in time - you cannot delete or edit user accounts except through the database)</li>
 <li>Uses cookies and sessions</li>
 <li>Autoloading</li>
-<li>JavaScript - event delegation, ajax, DOM manipulation</li>
-<li>Using PDO to interact with database</li>
+<li>JavaScript - event delegation and DOM manipulation</li>
+<li>Uses PDO to interact with database</li>
 </ul>
 
 
