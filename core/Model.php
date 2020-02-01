@@ -31,7 +31,7 @@ class Model {
 		if (!$resultsQuery) return false; // []
 		return $resultsQuery;
 	}
-	
+
 	
 	public function findFirst($params=[], $class=false) {
 		$resultQuery = $this->_db->findFirst($this->_table, $params, $class);

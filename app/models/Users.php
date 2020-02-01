@@ -12,7 +12,7 @@ class Users extends Model {
 		$this->_sessionName = CURRENT_USER_SESSION_NAME;
 		$this->_cookieName = REMEMBER_ME_COOKIE_NAME;
 	
-		//only used in currentUser() method
+		//only used in currentUser() & loginUserFromCookie method
 		if ($user != '') {
 			if (is_int($user)) {
 				//AAA
