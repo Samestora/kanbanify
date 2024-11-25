@@ -166,7 +166,7 @@ class DB {
 	}
 	
 	
-	public function update($table,$id, $fields = []) {		
+	public function update($table, $id, $fields = []) {		
 		$fieldString = '';
 		$values = [];
 		

@@ -7,9 +7,7 @@
 	<div class="mod-title" id="mod-title--">
 		<input type="text" class="mod-card-title form-control" value="<?php echo $this->card['title']; ?>">
 	</div>
-	<button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
-		<span aria-hidden="true">&times;</span>
-	</button>
+	<button type="button" class="btn-close close-modal" data-dismiss="modal" aria-label="Close"></button>
 </div>
 
 <div class="modal-body mod-description">

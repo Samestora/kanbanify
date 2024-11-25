@@ -1,6 +1,7 @@
 <?php $this->setPageTitle('Home'); ?>
 <?php $this->start('head'); ?>
 <?php $this->end(); ?>
+
 <?php $this->start('body'); ?>
 
 <div class="container mt-5">

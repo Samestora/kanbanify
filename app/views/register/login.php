@@ -18,17 +18,27 @@
 		<?php endif; ?>
 		<h3 class="text-center">Login</h3>
 		<hr>
-		<div class="form-group">
-			<label for="username">Username</label>
-			<input type="text" name="username" id="username" class="form-control">
+
+		<div class="mb-3">
+			<label for="basic-url" class="form-label">Username</label>
+			<div class="input-group">
+				<span class="input-group-text" id="basic-addon3">@</span>
+				<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4" name="username" id="username">
+			</div>
 		</div>
-		<div class="form-group">
-			<label for="password">Password</label>
-			<input type="password" name="password" id="password" class="form-control">
+
+		<div class="mb-3">
+			<label for="basic-url" class="form-label">Password</label>
+			<div class="input-group">
+				<input type="password" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4" name="password" id="password">
+			</div>
 		</div>
-		<div class="form-group">
-			<input type="checkbox" class="form-check-input" name="remember_me" id="remember_me" value="on">
-			<label for="remember_me" class="form-check-label">Remember Me</label>
+		
+		<div class="input-group mb-3">
+			<div class="d-flex flex-row">
+				<input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input" name="remember_me" id="remember_me" value="on">
+				<label for="remember_me" class="form-label">Remember Me</label>
+			</div>
 		</div>
 		
 		<button type="submit" name="submit" id="submit" class="btn btn-primary">Submit</button>

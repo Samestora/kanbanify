@@ -68,9 +68,7 @@ Manage your projects and tasks with this basic kanban web app tool
 
 
 <h3>To Do</h3>
-<li>Add user admin</li>
 <li>Add additional features for cards - deadlines, task status, colour labels etc.</li>
 <li>User collaboration and sharing of tasks</li>
+<li>Save Changes and cancel button must do something (FIX)</li>
 </ul>
-
-
