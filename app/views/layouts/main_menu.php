@@ -26,6 +26,7 @@
 			<?php if (Users::currentUser()) : ?>
   		<li class="nav-item">
         <a class="nav-link" href="<?=SROOT?>register/logout"><i class="fa fa-sign-out"></i>Logout</a>
+        <a class="nav-link" href="#"><i class="fa fa-user mr-1"></i><?php echo(Users::currentUser()->username);?></a>
       </li>
 			<?php else: ?>
 			<li class="nav-item <?php echo ($this->getPageTitle() === 'Login' ? 'active' : ''); ?>">
