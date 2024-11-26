@@ -81,8 +81,6 @@ board.addEventListener('click', function(e) {
 		//listAdd();
 	} else if (e.target.classList.contains('btn-card-add-another')) {
 		btnAddCardAnotherClick(e);
-	} else if (e.target.classList.contains('list-edit')) {
-		editList(e);
 	} else if (e.target.classList.contains('list-delete')) {
 		deleteList(e);
 	} else if (e.target.classList.contains('edit-card')) {
@@ -280,14 +278,8 @@ listAddBtn.addEventListener('click', function() {
 
 					<div class="list-header d-flex m-2" id="list-header--${listID}">
 						<input type="text" class="list-title" id="list-title--${listID}" value="${title}">
-						<div class="dropdown p-1">
-							<span class="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<i class="fa fa-bars"></i>
-							</span>
-							<div class="dropdown-menu">
-								<a class="dropdown-item list-edit" id="list-edit--${listID}">Edit</a>
-								<a class="dropdown-item list-delete" id="list-delete--${listID}">Delete</a>
-							</div>
+						<div class="p-1" id="Menu-${listID}">
+							<a class="fa fa-trash list-delete" id="list-delete--${listID}"></a>
 						</div>
 					</div>
 
@@ -390,11 +382,11 @@ function addCard(e) {
 						<span class="_card-text" id="_card-text--${cardID}">${cardText}</span>
 					</div>
 					<div class="dropdown p-1">
-						<span class="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<button class="btn btn-link p-0 border-0" type="button" id="dropdownMenu1" data-bs-toggle="dropdown" aria-expanded="false">
 							<i class="fa fa-edit"></i>
-						</span>
+						</button>
 						<div class="dropdown-menu">
-							<a class="dropdown-item edit-card" data-toggle="modal" data-target="#modal" id="edit-card--${cardID}">Edit</a>
+							<a class="dropdown-item edit-card" data-bs-toggle="modal" data-target="#modal" id="edit-card--${cardID}">Edit</a>
 							<a class="dropdown-item delete-card" id="delete-card--${cardID}">Delete</a>
 						</div>
 					</div>

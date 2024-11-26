@@ -53,13 +53,13 @@ boardAddbtn.addEventListener('click', function(e) {
 						</a>
 					</div>
 					<div class="dropdown p-1">
-						<span id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<button class="btn btn-link p-0 border-0 dropdown-toggle" id="dropdownMenu1" data-bs-toggle="dropdown" aria-expanded="false">
 							<i class="fa fa-edit"></i>
-						</span>
-						<div class="dropdown-menu">
-							<a class="dropdown-item board-edit" id="board-edit--${boardID}">Edit</a>
-							<a class="dropdown-item board-delete" id="board-delete--${boardID}">Delete</a>
-						</div>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item board-edit" id="board-edit--${boardID}">Edit</a></li>
+							<li><a class="dropdown-item board-delete" id="board-delete--${boardID}">Delete</a></li>
+						</ul>
 					</div>
 				</div>
 			`;

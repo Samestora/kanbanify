@@ -28,8 +28,6 @@
     </div>
 		
 		<!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="<?=SROOT?>mdb/js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="<?=SROOT?>mdb/js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->

@@ -16,17 +16,24 @@
   </div>
 
   <div class="row">
-    <div class="col-3">
-      <!-- add board -->
-      <div class="board-form">
-        <input type="text" class="board-input form-control">
-        <p class="input-error-msg err-msg-text d-none"></p>
+  <div class="col-3">
+  <!-- Add Board -->
+  <div class="board-form">
+      <!-- Input field -->
+      <input type="text" class="board-input form-control" placeholder="Enter board name">
+
+      <!-- Error Message -->
+      <p class="input-error-msg err-msg-text text-danger hide mt-1"></p>
+
+      <!-- Action Buttons -->
+      <div class="mt-2">
         <button class="board-add-btn btn btn-sm btn-primary" data-boardid="">Add</button>
-        <button class="board-update-btn btn btn-sm btn-info d-none">Update</button>
-        <button class="board-cancel-btn btn btn-sm btn-danger d-none">Cancel</button>
+        <button class="board-update-btn btn btn-sm btn-info hide" >Update</button>
+        <button class="board-cancel-btn btn btn-sm btn-danger hide" >Cancel</button>
       </div>
-      <!-- end add board -->
     </div>
+    <!-- End Add Board -->
+  </div>
     <div class="col-9">
       <div class="boards-list">
         <?php foreach ($this->boards as $board): ?>
@@ -39,17 +46,13 @@
 
 		  <!--Dropdown Edit or Delete-->
 			<div class="dropdown">
-				<button class="btn btn-link p-0 border-0" type="button" id="dropdownMenu1" data-bs-toggle="dropdown" aria-expanded="false">
-					<i class="fa fa-edit"></i>
-				</button>
-				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-					<li>
-						<a class="dropdown-item board-edit" id="board-edit--<?=$board['id']?>">Edit</a>
-					</li>
-					<li>
-						<a class="dropdown-item board-delete" id="board-delete--<?=$board['id']?>">Delete</a>
-					</li>
-				</ul>
+        <button class="btn btn-link p-0 border-0 dropdown-toggle" type="button" id="dropdownMenu-<?= $board['id']; ?>" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa fa-edit"></i>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu-<?= $board['id']; ?>">
+            <li><a class="dropdown-item board-edit" id="board-edit--<?= $board['id']; ?>">Edit</a></li>
+            <li><a class="dropdown-item board-delete" id="board-delete--<?= $board['id']; ?>">Delete</a></li>
+        </ul>
 			</div>
 
         </div>

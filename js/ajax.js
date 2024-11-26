@@ -41,10 +41,6 @@ function ajaxAdd(data, model){
 	
 }
 
-
-
-
-
 function ajaxDelete(data, model){
 	$.ajax({
 		type: "POST",

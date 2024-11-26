@@ -1,4 +1,4 @@
-# kanban-trello-style-app-php-mvc
+# Kanbanify
 
 
 <h3>Description</h3>
@@ -21,7 +21,7 @@ Manage your projects and tasks with this basic kanban web app tool
 <ul>
 <li>HTML</li>
 <li>CSS</li>
-<li>Material Design Bootstrap 4</li> 
+<li>Material Design Bootstrap 5</li> 
 <li>JavaScript</li>    
 <li>AJAX</li>  
 <li>PHP7</li>
@@ -70,5 +70,4 @@ Manage your projects and tasks with this basic kanban web app tool
 <h3>To Do</h3>
 <li>Add additional features for cards - deadlines, task status, colour labels etc.</li>
 <li>User collaboration and sharing of tasks</li>
-<li>Save Changes and cancel button must do something (FIX)</li>
 </ul>
