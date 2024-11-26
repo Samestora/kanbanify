@@ -29,10 +29,9 @@
 		
 		<!-- SCRIPTS -->
     <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="<?=SROOT?>mdb/js/jquery-3.7.1.js"></script>
     <script type="text/javascript" src="<?=SROOT?>mdb/js/popper.min.js"></script>
     <script type="text/javascript" src="<?=SROOT?>mdb/js/bootstrap.bundle.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="<?=SROOT?>mdb/js/mdb.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="<?=SROOT?>mdb/js/mdb.min.js"></script>
 		<!-- Custom JavaScript -->
