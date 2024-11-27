@@ -46,22 +46,17 @@ boardAddbtn.addEventListener('click', function(e) {
 			var boardID = lastInsertID;
 	
 			var html = `
-				<div class="board-container d-inline-flex" id="board-container--${boardID}">
-					<div class="board-link-container">
-						<a href="${g.SROOT}boards/board/${boardID}">
-							<h4 class="board-name" id="board-name--${boardID}">${boardName}</h4>
-						</a>
-					</div>
-					<div class="dropdown p-1">
-						<button class="btn btn-link p-0 border-0 dropdown-toggle" id="dropdownMenu1" data-bs-toggle="dropdown" aria-expanded="false">
-							<i class="fa fa-edit"></i>
-						</button>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item board-edit" id="board-edit--${boardID}">Edit</a></li>
-							<li><a class="dropdown-item board-delete" id="board-delete--${boardID}">Delete</a></li>
-						</ul>
-					</div>
-				</div>
+			<div class="board-container d-inline-flex justify-content-center px-3 rounded-3 container" id="board-container--${boardID}">
+          <div class="board-link-container text-center flex-fill d-flex flex-column my-2">
+            <a href="${g.SROOT}boards/board/${boardID}" id="board-link--${boardID}">
+              <h4 class="board-name" id="board-name--${boardID}">${boardName}</h4>
+            </a>
+            <div class="d-flex flex-fill justify-content-around">
+              <a class="fa fa-edit board-edit" id="board-edit--${boardID}"> Edit</a></li>
+              <a class="fa fa-trash board-delete" id="board-delete--${boardID}"> Delete</a></li>
+            </div>
+          </div>
+        </div>
 			`;
 
 			var boardsList = document.querySelector(DOM.boardsList);

@@ -1,4 +1,4 @@
-<?php $this->setPageTitle('Home'); ?>
+<?php $this->setPageTitle('Kanbanify'); ?>
 <?php $this->start('head'); ?>
 <?php $this->end(); ?>
 

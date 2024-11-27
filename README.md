@@ -1,34 +1,33 @@
 # Kanbanify
 
+## Description
 
-<h3>Description</h3>
-
-Manage your projects and tasks with this basic kanban web app tool
+### Manage your projects and tasks with this basic kanban web app tool
 
 <ul>  
-<li>Create a board - eg. "Programming"</li>
-<li>Create lists within the board - eg. "Things To Do"</li>
-<li>Create cards within lists - eg. "Learn laravel" or "Complete Blog Project"</li>
-<li>Each card contains a description, checklist, and comments section</li>
-<li>Create an account and login as a user</li>
-<li>Remember me login option</li>
-<li>Manage your boards, lists and cards</li>
+  <li>Create a board - eg. "Programming"</li>
+  <li>Create lists within the board - eg. "Things To Do"</li>
+  <li>Create cards within lists - eg. "Learn laravel" or "Complete Blog Project"</li>
+  <li>Each card contains a description, checklist, and comments section</li>
+  <li>Create an account and login as a user</li>
+  <li>Remember me login option</li>
+  <li>Manage your boards, lists and cards</li>
 </ul>
 
 
-<h3>Technologies</h3>
+## Technologies
 
 <ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>Material Design Bootstrap 5</li> 
-<li>JavaScript</li>    
-<li>AJAX</li>  
-<li>PHP7</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Bootstrap 5</li> 
+  <li>JavaScript</li>    
+  <li>AJAX</li>  
+  <li>PHP7</li>
 </ul>
 
 
-<h3>Setup</h3>
+## Setup
 
 <p>Run sql to create the database</p>
 <p>Alter database connection information if needed in config file</p>
@@ -52,7 +51,7 @@ Manage your projects and tasks with this basic kanban web app tool
 </table>
 
 
-<h3>Programming Features</h3>
+## Programming Features
 
 <ul>
 <li>Uses MVC architecture</li>  
@@ -67,7 +66,7 @@ Manage your projects and tasks with this basic kanban web app tool
 </ul>
 
 
-<h3>To Do</h3>
+## To Do
 <li>Add additional features for cards - deadlines, task status, colour labels etc.</li>
 <li>User collaboration and sharing of tasks</li>
 </ul>

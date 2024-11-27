@@ -1,4 +1,4 @@
-<?php $this->setPageTitle('Boards'); ?>
+<?php $this->setPageTitle('Kanbanify - Boards'); ?>
 <?php $this->start('head'); ?>
 
 <?php $this->end(); ?>
@@ -27,9 +27,9 @@
 
       <!-- Action Buttons -->
       <div class="mt-2">
-        <button class="board-add-btn btn btn-sm btn-primary" data-boardid="">Add</button>
-        <button class="board-update-btn btn btn-sm btn-info hide" >Update</button>
-        <button class="board-cancel-btn btn btn-sm btn-danger hide" >Cancel</button>
+        <button class="board-add-btn btn btn-sm btn-outline-primary" data-boardid="">Add</button>
+        <button class="board-update-btn btn btn-sm btn-outline-info hide" >Update</button>
+        <button class="board-cancel-btn btn btn-sm btn-outline-danger hide" >Cancel</button>
       </div>
     </div>
     <!-- End Add Board -->
@@ -37,24 +37,16 @@
     <div class="col-9">
       <div class="boards-list">
         <?php foreach ($this->boards as $board): ?>
-        <div class="board-container d-inline-flex" id="board-container--<?=$board['id']?>">
-          <div class="board-link-container">
-            <a href="<?=SROOT?>boards/board/<?=$board['id']?>" id="board-link--<?=$board['id']?>">
+        <div class="board-container d-inline-flex justify-content-center px-3 rounded-3 container" id="board-container--<?=$board['id']?>">
+          <div class="board-link-container text-center flex-fill d-flex flex-column my-2">
+            <a href="<?=SROOT?>boards/board/<?=$board['id']?>" class="link-primary link-offset-2 link-underline-opacity-0 id="board-link--<?=$board['id']?>">
               <h4 class="board-name" id="board-name--<?=$board['id']?>"><?=$board['name']?></h4>
             </a>
+            <div class="d-flex flex-fill justify-content-around">
+              <a class="board-edit link-success link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" id="board-edit--<?= $board['id']; ?>" style="font-family: Poppins-Medium;"> <i class="fa fa-edit"></i> Edit</a></li>
+              <a class="board-delete link-danger link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover" id="board-delete--<?= $board['id']; ?>" style="font-family: Poppins-Medium;"> <i class="fa fa-trash"></i> Delete</a></li>
+            </div>
           </div>
-
-		  <!--Dropdown Edit or Delete-->
-			<div class="dropdown">
-        <button class="btn btn-link p-0 border-0 dropdown-toggle" type="button" id="dropdownMenu-<?= $board['id']; ?>" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fa fa-edit"></i>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenu-<?= $board['id']; ?>">
-            <li><a class="dropdown-item board-edit" id="board-edit--<?= $board['id']; ?>">Edit</a></li>
-            <li><a class="dropdown-item board-delete" id="board-delete--<?= $board['id']; ?>">Delete</a></li>
-        </ul>
-			</div>
-
         </div>
         <?php endforeach; ?>
       </div>

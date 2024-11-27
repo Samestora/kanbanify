@@ -8,11 +8,9 @@
 		<!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
-    <link href="<?=SROOT?>mdb/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="<?=SROOT?>mdb/css/mdb.min.css" rel="stylesheet">
+    <link href="<?=SROOT?>ext/css/bootstrap.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="<?=SROOT?>mdb/css/style.css" rel="stylesheet">
+    <link href="<?=SROOT?>ext/css/style.css" rel="stylesheet">
 		
 		<?php echo $this->content('head'); ?>
 		
@@ -29,11 +27,9 @@
 		
 		<!-- SCRIPTS -->
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="<?=SROOT?>mdb/js/jquery-3.7.1.js"></script>
-    <script type="text/javascript" src="<?=SROOT?>mdb/js/popper.min.js"></script>
-    <script type="text/javascript" src="<?=SROOT?>mdb/js/bootstrap.bundle.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="<?=SROOT?>mdb/js/mdb.min.js"></script>
+    <script type="text/javascript" src="<?=SROOT?>ext/js/jquery-3.7.1.js"></script>
+    <script type="text/javascript" src="<?=SROOT?>ext/js/popper.min.js"></script>
+    <script type="text/javascript" src="<?=SROOT?>ext/js/bootstrap.bundle.min.js"></script>
 		<!-- Custom JavaScript -->
     <script type="text/javascript" src="<?=SROOT?>js/ajax.js"></script>
 		<!-- Custom JavaScript -->

@@ -1,5 +1,5 @@
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg fixed-top" style="background-color: #FFFFFF;">
+<nav class="navbar navbar-expand-lg fixed-top d-flex" style="background-color: #FFFFFF;">
 
   <!-- Collapse button -->
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#basicExampleNav"
@@ -11,9 +11,9 @@
   <div class="collapse navbar-collapse" id="basicExampleNav">
 
     <!-- Links -->
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <ul class="navbar-nav px-2 me-auto mb-2 mb-lg-0">
       <li class="nav-item <?php echo ($this->getPageTitle() === 'Home' ? 'active' : ''); ?>">
-        <a class="nav-link" style="color:#151A57;" href="<?=SROOT?>home/index"><b>&lt;/Kanbanify&gt;</b></a>
+        <a class="nav-link" href="<?=SROOT?>home/index"><b id="logo">&lt;Kanbanify/&gt;</b></a>
       </li>
       <li class="nav-item <?php echo ($this->getPageTitle() === 'Boards' ? 'active' : ''); ?>">
         <a class="nav-link" href="<?=SROOT?>boards/index">Boards</a>
@@ -21,7 +21,7 @@
     </ul>
 
     <!-- User Links -->
-    <ul class="navbar-nav">
+    <ul class="navbar-nav px-2">
       <?php if (Users::currentUser()) : ?>
       <li class="nav-item">
         <a class="nav-link" href="<?=SROOT?>register/logout"><i class="fa fa-sign-out"></i> Logout</a>

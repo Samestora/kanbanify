@@ -1,4 +1,4 @@
-<?php $this->setPageTitle('Access restricted'); ?>
+<?php $this->setPageTitle('Kanbanify - Access restricted'); ?>
 <?php $this->start('head'); ?>
 
 
@@ -6,12 +6,10 @@
 
 <?php $this->start('body'); ?>
 
-<div class="container mt-5">
-	<div class="text-center">
-		<span class="alert alert-danger" role="alert">
-			You must be logged in to access this page
-		</span>
-	</div>
+<div class="text-center flex-fill d-flex justify-content-center pt-3">
+	<span class="alert alert-danger d-flex flex-fill align-items center justify-content-center" role="alert">
+		You must be logged in to access this page
+	</span>
 </div>
 	
 
